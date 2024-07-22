@@ -4,6 +4,7 @@ Dalam project ini saya mengambil refrensi dari mendeley. pada project ini Tech y
 2. CSS (Style namun hanya sedikit)
 3. Javascript
 4. Bootstrap
+
 project ini masih dalam tahap pengembangan karena masih kurangnya fitur dan fleksibilitas, yaitu :
 1. Belum bisa responsive dimobile
 2. lalu jika pada jurnal yang kalian miliki hanya ada 2 penulis maka hasil yang akan tampil yaitu template
