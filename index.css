@@ -1,0 +1,102 @@
+
+.navbar .container-fluid {
+    padding: 10px 30px;
+    font-family: monospace;
+    background-color: #e6e6e6;
+}
+
+.container-fluid .navbar-brand {
+    color: rgb(48, 48, 48);
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 30px;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: rgb(48, 48, 48);
+}
+
+
+#home {
+    padding: 20px;
+}
+
+#home .titlePage {
+    font-size: 2.3em;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+#home .about-APA {
+    font-family: monospace;
+    font-size: 1.1em;
+}
+
+
+
+#home .writer .penulis-1, .penulis-2, .penulis-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#home .writer .penulis-1  h4 {
+    font-size: 1.3em;
+    font-family: monospace;
+}
+#home .writer .penulis-2  h4 {
+    font-size: 1.3em;
+    font-family: monospace;
+}
+#home .writer .penulis-3  h4 {
+    font-size: 1.3em;
+    font-family: monospace;
+}
+
+#home .kolom-detail {
+    margin-top: 10px;
+    display: flex;
+    width: 550px;
+    gap: 25px;
+    justify-content: space-between;
+}
+
+#home .kolom-detail .detail-1 {
+    display: flex;
+    flex-direction: column;
+    height: 18vh;
+    justify-content: space-between;
+}
+
+#home .kolom-detail .detail-1 input {
+    width: 360px;
+}
+
+#home .kolom-detail .detail-2 input {
+    width: 365px;
+}
+
+#home .kolom-detail .detail-2 {
+    display: flex;
+    flex-direction: column;
+    height: 18vh;
+    justify-content: space-between;
+}
+
+.btn {
+    margin-top: 10px;
+    width: 750px;
+}
+
+#show {
+    border: 3px solid #ddd;
+    height: 110px;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 1.1em;
+}
+

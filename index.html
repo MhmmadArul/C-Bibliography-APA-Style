@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C-Bibliography APA Style</title>
+    <!-- CSS index -->
+    <link rel="stylesheet" href="index.css">
+    <!-- CSS Bootstrap -->
+     <link rel="stylesheet" href="bootstrap-5.3.3/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg" data-bs-theme="light"  style="margin-top: -10px;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">C-Bibliography APA </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">For Jurnal</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+      <!-- Main Section -->
+    <div class="container-fluid">
+        <div id="home">
+            <h4 class="text-center titlePage">American Psychological Association</h4>
+            <div class="row">
+                <div class="col-md-5 about-APA mt-4">
+                    <p style="text-align: justify;">APA (American Psychological Association) adalah gaya penulisan yang digunakan secara luas dalam disiplin ilmu sosial, seperti psikologi, pendidikan, dan sosiologi, untuk format penulisan akademis. Gaya ini memberikan panduan khusus tentang cara mengutip sumber, menyusun referensi, serta mengatur tata letak manuskrip. Sistem penulisan APA menekankan pentingnya penulis memberikan kredit kepada sumber asli dan mempermudah pembaca melacak referensi yang digunakan, sehingga meningkatkan kredibilitas dan integritas karya ilmiah. Selain itu, gaya APA mengatur aspek teknis seperti margin, spasi, heading, dan daftar pustaka, serta cara menulis kutipan dalam teks. Semua aturan ini dirancang untuk memastikan kejelasan, konsistensi, dan kemudahan pembacaan dalam penulisan ilmiah.</p>
+                </div>
+                <div class="col-md-7 mt-4 styelAPA">
+                    <div class="writer">
+                        <div class="penulis-1">
+                            <h4>Penulis 1</h4>
+                            <div class="nama-depan1">
+                                <input type="text" id="nadep1" placeholder="nama depan">
+                            </div>
+                            <div class="nama-tengah1">
+                                <input type="text" id="nateng1" placeholder="nama tengah">
+                            </div>
+                            <div class="nama-akhir1">
+                                <input type="text" id="nakh1" placeholder="nama akhir">
+                            </div>
+                        </div>
+                        <div class="penulis-2">
+                            <h4>Penulis 2</h4>
+                            <div class="nama-depan2">
+                                <input type="text" id="nadep2" placeholder="nama depan">
+                            </div>
+                            <div class="nama-tengah2">
+                                <input type="text" id="nateng2" placeholder="nama tengah">
+                            </div>
+                            <div class="nama-akhir2">
+                                <input type="text" id="nakh2" placeholder="nama akhir">
+                            </div>
+                        </div>
+                        <div class="penulis-3">
+                            <h4>Penulis 3</h4>
+                            <div class="nama-depan3">
+                                <input type="text" id="nadep3" placeholder="nama depan">
+                            </div>
+                            <div class="nama-tengah3">
+                                <input type="text" id="nateng3" placeholder="nama tengah">
+                            </div>
+                            <div class="nama-akhir3">
+                                <input type="text" id="nakh3" placeholder="nama akhir">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="kolom-detail">
+                            <div class="detail-1">
+                                <div class="years">
+                                    <div class="tahun-terbit">
+                                        <input type="text" id="thunTerbit" placeholder="tahun terbit">
+                                    </div>
+                                </div>
+                                <div class="title">
+                                    <div class="judul-artikel">
+                                        <input type="text" id="jdulArtikel" placeholder="judul artikel">
+                                    </div>
+                                </div>
+                                <div class="name-jurnal">
+                                    <div class="nama-jurnal">
+                                        <input type="text" id="nmaJurnal" placeholder="nama jurnal">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="detail-2">
+                                <div class="vlm">
+                                    <div class="volume">
+                                        <input type="text" id="vlume" placeholder="volume">
+                                    </div>
+                                </div>
+                                <div class="nmbr">
+                                    <div class="nomor">
+                                        <input type="text" id="nmr" placeholder="nomor">
+                                    </div>
+                                </div>
+                                <div class="pgs">
+                                    <div class="halaman">
+                                        <input type="text" id="hlmn" placeholder="halaman">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-secondary">Result</button>
+                    <h4 id="show"></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JS Sript -->
+     <script src="script.js"></script>
+    <!-- JS Bootstrap -->
+     <script src="bootstrap-5.3.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
